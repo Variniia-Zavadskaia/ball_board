@@ -1,0 +1,92 @@
+body {
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.cell {
+    width: 40px;
+    height: 40px;
+    text-align: center;
+}
+
+.cell img {
+    width: 25px;
+    height: auto;
+}
+
+.floor {
+    background-color: gray;
+}
+
+.wall {
+    background-color: brown;
+}
+
+table {
+    cursor: pointer;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.modal {
+    width: 100%;
+    max-width: 250px;
+    height: 150px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: none;
+    z-index: 1001;
+    background-color: rgb(200, 200, 29);
+    padding: 35px 36px;
+    color: #c43939;
+    font-weight: normal;
+    font-size: 20px;
+    text-transform: uppercase;
+    text-shadow: 0 2px rgb(0, 0, 0), 0 3px #777;
+}
+
+button {
+    border: none;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    background: #c43939;
+    box-shadow: 0 5px 0 #3f3f41;
+    height: 40px;
+    width: 90px;
+    cursor: pointer;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+button:hover {
+    background: #c43939;
+    box-shadow: none;
+    position: relative;
+    top: 5px;
+    color: lightgoldenrodyellow;
+}
+
+span {
+    font-size: 25px;
+    margin-right: 10px;
+}
+
+.score {
+    margin-right: 400px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.nbc {
+    margin-right: 330px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
